@@ -11,4 +11,5 @@ params = {
 	'text': 'Hello from Plivo!',
 	'type': 'sms',
 }
+
 p.send_message(params)
