@@ -5,7 +5,7 @@ import random
 account = "ACab6ad52e72143acd38066c67d687496e"
 token   = "ec33fd1862a7700578ef67050cdba290"
 
-group = ["+17326820887", "", ""] 
+group = ["snip", "snip", "snip"] 
 twilio_num = "+17323336281"
 
 client = TwilioRestClient(account, token)
