@@ -1,6 +1,5 @@
 import plivo
 
-
 auth_id 	= "MANDU1Y2Y0ZMQYOTE5MZ"
 auth_token 	= "NDEzMzM2ZmRlNTMxZmMxYmZiNzMxOWVkN2QzZTY1"
 
@@ -15,5 +14,3 @@ params = {
     'hangup_url' 	: "http://example.herokuapp.com/hangup_url",
 }
 response = p.make_call(params)
-
-https://googledrive.com/host/0B4wa-51xiOmPfkxBZVdFcWJLMlY4SEpYaExhay1YT3BFQlJaNGtHT1UtTkt2WC1KUmZRa2s/tdh_test.mp3
