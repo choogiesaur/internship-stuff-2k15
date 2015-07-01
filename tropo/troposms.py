@@ -12,14 +12,14 @@
 from itty import *
 from tropo import Tropo, Session
 
-TO_NUMBER = '17326820887'
+TO_NUMBER 	= '17326820887'
 FROM_NUMBER = '12012895306'
 
 
 @post('/index.json')
 def index(request):
         t = Tropo()
-        t.message("Hello World", TO_NUMBER, channel='VOICE', _from='tel:+' + FROM_NUMBER)
+        t.message("Hello World", TO_NUMBER, channel='SMS', _from='tel:+' + FROM_NUMBER)
 	json = t.RenderJson()
 	print json
 	return json

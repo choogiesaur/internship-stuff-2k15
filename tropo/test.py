@@ -6,7 +6,7 @@ def index(request):
 
 	t = Tropo()
 
-	t.call(to="+14075550100", network = "SMS")
+	t.call(to="+17326820887", network = "SMS")
 	t.say("Tag, you're it!")
 	
 	return t.RenderJson()
