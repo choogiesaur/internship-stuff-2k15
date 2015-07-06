@@ -8,7 +8,7 @@ p = plivo.RestAPI(auth_id,auth_token)
 params = {
 	'src': '+13305206782',
 	'dst': '+17326820887',
-	'text': 'Hello from Plivo!',
+	'text': 'Plivo test SMS from IDT!',
 	'type': 'sms',
 }
 

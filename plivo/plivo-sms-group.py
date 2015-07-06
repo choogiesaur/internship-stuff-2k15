@@ -12,7 +12,7 @@ for number in group:
 	params = {
 		'src': '+13305206782',
 		'dst': number,
-		'text': 'Hello from Plivo!',
+		'text': 'Plivo group SMS test from IDT!',
 		'type': 'sms',
 	}
 	
