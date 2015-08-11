@@ -5,8 +5,8 @@ import random
 account = "ACab6ad52e72143acd38066c67d687496e"
 token   = "ec33fd1862a7700578ef67050cdba290"
 
-twilio_num 	= "+17323336281"
-recipient 	= "+17326820887"
+twilio_num 	= "+1xxxyyyzzzz"
+recipient 	= "+1aaabbbcccc"
 
 client = TwilioRestClient(account, token)
 
