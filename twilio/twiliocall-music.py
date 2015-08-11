@@ -7,8 +7,8 @@ token 	= "ec33fd1862a7700578ef67050cdba290"
 
 client = TwilioRestClient(account, token)
 
-call = client.calls.create(to="8484597219",
-		from_="7323336281",
+call = client.calls.create(to="xxxyyyzzzz",
+		from_="zzzyyyxxxx",
 		url="http://twimlbin.com/450a3717")
 	"""host audio file on google drive; gen TwiML link at twimlbin.com"""
 	"""https://googledrive.com/host/0B4wa-51xiOmPfkxBZVdFcWJLMlY4SEpYaExhay1YT3BFQlJaNGtHT1UtTkt2WC1KUmZRa2s/tdh_test.mp3"""
