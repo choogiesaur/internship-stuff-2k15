@@ -10,5 +10,5 @@ token   = "ec33fd1862a7700578ef67050cdba290"
 client = TwilioRestClient(account, token)
 
 txt = "tracing this with wireshark @ " + strftime("%Y-%m-%d %H:%M:%S", gmtime())
-message = client.messages.create(to="+17326820887", from_="+17323336281",
+message = client.messages.create(to="+1xxxxxxxxxx", from_="+1xxxxxxxxxx",
     body=txt)
