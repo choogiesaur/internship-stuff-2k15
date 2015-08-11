@@ -6,9 +6,9 @@ account = "ACab6ad52e72143acd38066c67d687496e"
 token   = "ec33fd1862a7700578ef67050cdba290"
 
 #my number, twilio number
-group_a = ["+17326820887", "+17323336281"]
-group_b = ["+17326820887", "+17326820887"]
-twilio_num = "+17323336281"
+group_a = ["+xxxyyyzzzz", "+aaabbbcccc"]
+group_b = ["+xxxyyyzzzz", "+aaabbbcccc"]
+twilio_num = "+1xxxyyyzzzz"
 
 client = TwilioRestClient(account, token)
 
